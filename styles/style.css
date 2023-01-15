@@ -1,0 +1,172 @@
+/*header styles*/
+*{
+   font-family: open sans;
+   margin: 0;
+}
+header{
+    background-color: #FFF4E7;
+    padding-top: 10px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+.nav-title{
+    font-weight: 700;
+    font-size: 45px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+nav ul{
+    display: flex;
+    margin-top: 20px;
+}
+nav li{
+    list-style: none;
+    margin-left: 50px;
+    font-size: 18px;
+}
+h2{
+   font-size: 64px;
+   font-weight: 700;
+}
+.button{
+    width: 180px;
+    height: 64px;background-color: orangered;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.banner{
+    text-align: center;
+}
+.banner-para{
+    margin-bottom: 20px;
+    width: 50%;
+    margin-left: 350px;
+}
+.banner>img{
+    width: 1000px;
+    height: 700px;
+}
+/* main section styles */
+.main-images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 50px;
+    margin-left: 50px;
+    
+}
+
+.main-description{
+    margin-top: 300px;
+}
+.main-description>h2>span{
+  color: chartreuse;
+}
+.main-description>button{
+    width: 180px;
+    height: 64px;
+    background-color: orangered;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 200px;
+}
+.main-1st-para{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.main-para{
+    margin-bottom: 20px;
+}
+.main-sub-para{
+    border: 1px solid whitesmoke;
+    margin-bottom: 30px;
+}
+.main-sub-para>p{
+  color: darkgreen;
+  font-weight: 400;
+}
+main>div{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.main-section-3{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: left;
+    margin-left: 50px;
+    color: darkblue;
+    
+}
+
+.main-property{
+    display: flex;
+    justify-content: space-between;
+}
+.main-property>img{
+    width: 700px;
+    height: 950px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+button{
+    width: 242px;
+    height: 100px;
+    background-color: chartreuse;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 100px;
+}
+.main-2-header{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.main-2-para{
+    margin-left: 50px;
+    margin-bottom: 100px;
+}
+
+    .icons{
+        border: 1px solid red;
+        align-items: center;
+        padding: 50px 100px;
+        margin-bottom: 30px;
+        }
+    .facts-container{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .last-section-title{
+        text-align: center;
+        margin-top: 100px;
+    }
+    .last-section-title-para{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    }
+    .last-section-header{
+        margin-top: 100px;
+        margin-left: 50px;
+    }
+       .sponsors{
+        display: flex;
+        justify-content: space-between;
+        margin: 0 50px;
+       } 
+/* footer design */
+.footer{
+    text-align: center;
+    background-color:#FFF4E7;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+        
+
+
